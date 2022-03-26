@@ -49,8 +49,8 @@ const Post = () => {
             </>
             : 
             <div className='w-full h-96 flex justify-center items-center flex-col'>
-                <h1 className='text-center text-3xl pl-3'>only author can write article</h1>
-                <button onClick={sendAuthor} className='w-[800px] ml-6 shadow-xl py-3 mt-9 bg-blue-700 rounded-xl text-white font-semibold'>Request be author</button>
+                <h1 className='text-center text-3xl pl-3'>You are not login yet</h1>
+                <button  onClick={()=>{router.push('/login')}} className='w-[800px] ml-6 shadow-xl py-3 mt-9 bg-blue-700 rounded-xl text-white font-semibold'>Login</button>
 
             </div>
 
