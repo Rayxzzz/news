@@ -1,6 +1,6 @@
-# Zwallet
+# News Today
 
-**Zwallet** adalah dompet digital yang menyederhanakan kebutuhan finansial anda dan dapat menghemat banyak waktu dalam kebutuhan perbankan hanya dengan menggunakan Zwallet.
+**News Today** adalah platform tempat berbagi berita, jadi saat kalian punya keinginan membagi informasi (yang umumnya berupa tulisan) kalian bisa menggunakan News Today
 
 
 ## Built With
@@ -28,7 +28,7 @@
 
 ## Demonstration
 
-Demo : https://bit.ly/ZwalletSite
+Demo : https://bit.ly/newsToday
 
 email : q@gmail.com || password : 123
 
