@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Zwallet
 
-## Getting Started
+**Zwallet** adalah dompet digital yang menyederhanakan kebutuhan finansial anda dan dapat menghemat banyak waktu dalam kebutuhan perbankan hanya dengan menggunakan Zwallet.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Built With
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [React.js]
+- [Mysql]
+- [Express.js]
+- [Node.js]
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Installation
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Rayxzzz/Zwallet.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Start the Application
+   ```sh
+   npm start
+   ```
 
-## Learn More
+## Demonstration
 
-To learn more about Next.js, take a look at the following resources:
+Demo : https://bit.ly/ZwalletSite
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+email : ridho99@gmail.com || password : 123
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Snippets
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Here are some snippets about this app:
+
+- Login
+
+![Login](./src/assets/images/snippet3.png)
+
+- Home
+
+![Home](./src/assets/images/snippet1.png)
+
+- Profile
+
+![Profile](./src/assets/images/snippet2.png)
+
+
