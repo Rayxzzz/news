@@ -6,16 +6,16 @@
 ## Built With
 
 - [React.js]
+- [Next.js]
 - [Mysql]
 - [Express.js]
-- [Node.js]
 
 
 ## Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Rayxzzz/Zwallet.git
+   git clone https://github.com/Rayxzzz/news.git
    ```
 2. Install NPM packages
    ```sh
@@ -23,14 +23,14 @@
    ```
 3. Start the Application
    ```sh
-   npm start
+   npm run dev
    ```
 
 ## Demonstration
 
 Demo : https://bit.ly/ZwalletSite
 
-email : ridho99@gmail.com || password : 123
+email : q@gmail.com || password : 123
 
 
 
@@ -38,16 +38,25 @@ email : ridho99@gmail.com || password : 123
 
 Here are some snippets about this app:
 
-- Login
-
-![Login](./src/assets/images/snippet3.png)
-
 - Home
 
-![Home](./src/assets/images/snippet1.png)
+![home](./src/asset/image/home.png)
 
-- Profile
 
-![Profile](./src/assets/images/snippet2.png)
+- Login
+
+![home](./src/asset/image/loginn.png)
+
+
+- Post Article
+
+![post article](./src/asset/image/create.png)
+
+
+- Last News
+
+![Last News](./src/asset/image/lastnews.png)
+
+
 
 

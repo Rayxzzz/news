@@ -13,34 +13,31 @@ import socket from '../../helper/socket'
 
 const Post = () => {
     const router = useRouter()
+    const [token, setToken] = useState('')
     
     useEffect(()=>{
+        setToken(localStorage.getItem('token'))
         socket.emit('userOnline', (0))
         socket.on('accept', (data)=>{
             console.log(data)
             setStatus('author')
         })
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[socket])
     const sendAuthor = () => {
         socket.emit('author', ('user request to be author'))
       }
 
     const [status, setStatus] = useState('author')
-    let token
-    let statusa
-    if (typeof window !== 'undefined') {
-        // Perform localStorage action
-        statusa = localStorage.getItem('status')
-        token = localStorage.getItem('token')
-      }
-
+    const [login, setLogin] = useState('author')
     
     
 
     return (
         <>
             <Header />
-            {status == 'author' ? <><div className='flex justify-between mt-16 w-screen px-20'>
+            {token ? <><div className='flex justify-between mt-16 w-screen px-20'>
                 <div className='flex items-center'>
                     <Image src={back} alt="back" />
                     <h1 className='ml-6'>Back</h1>
